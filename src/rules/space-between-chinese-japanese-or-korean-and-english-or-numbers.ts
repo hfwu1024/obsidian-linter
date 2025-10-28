@@ -41,9 +41,9 @@ export default class SpaceBetweenChineseJapaneseOrKoreanAndEnglishOrNumbers exte
 
     newText = newText.replace(ignoreExceptionsHead, '$1 $3').replace(ignoreExceptionsTail, '$1 $3');
 
-    newText = updateItalicsText(newText, addSpaceAroundChineseJapaneseKoreanAndEnglish);
+    // newText = updateItalicsText(newText, addSpaceAroundChineseJapaneseKoreanAndEnglish);
 
-    newText = updateBoldText(newText, addSpaceAroundChineseJapaneseKoreanAndEnglish);
+    // newText = updateBoldText(newText, addSpaceAroundChineseJapaneseKoreanAndEnglish);
 
     return newText;
   }
